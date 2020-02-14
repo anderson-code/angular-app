@@ -13,13 +13,13 @@
                     <div class="divider"></div>
                     <button type="button" label="Submit" class="btn btn-success" ><i class="fa fa-refresh"></i> Limpar</button>
                     <div class="divider"></div>
-                    <button type="button" class="btn btn-default"><i class="fa fa-reply"></i> Voltar</button>
+                    <button type="button" [routerLink]="['/clientes-list']" class="btn btn-default"><i class="fa fa-reply"></i> Voltar</button>
                 </div>
 
                 <div class="box-body">
                     <div class="row">
                         <div class="col-md-12">
-                                <div class="nav-tabs-custom">
+                            <div class="nav-tabs-custom">
                                 <ul class="nav nav-tabs">
                                     <li class="active"><a href="#tab_1" data-toggle="tab">Cliente</a></li>
                                     <li><a href="#tab_2" data-toggle="tab">Endereço</a></li>
@@ -189,7 +189,7 @@
                                     <!-- /.tab-pane -->
                                 </div>
                                 <!-- /.tab-content -->
-                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>   
@@ -198,3 +198,4 @@
 </section>
     
     
+
