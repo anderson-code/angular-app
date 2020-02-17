@@ -15,6 +15,9 @@ import { CalendarModule } from 'primeng/calendar';
 import { TableModule } from 'primeng/table';
 import { ClienteCadastroComponent } from './cliente/clientes-form/clientes-form.component';
 import { ClienteListComponent } from './cliente/clientes-list/clientes-list.component';
+import { LoginComponent } from './login/login.component';
+import { LayoutLoginComponent } from './layout-login/layout-login.component';
+import { LayoutComponent } from './layout/layout.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +28,10 @@ import { ClienteListComponent } from './cliente/clientes-list/clientes-list.comp
     DashboardComponent,
     HomeComponent,
     ClienteCadastroComponent,
-    ClienteListComponent
+    ClienteListComponent,
+    LoginComponent,
+    LayoutLoginComponent,
+    LayoutComponent
   ],
   imports: [
     BrowserModule,

@@ -38,11 +38,14 @@
   <!-- Bootstrap time Picker -->
   <link rel="stylesheet" href="assets/plugins/timepicker/bootstrap-timepicker.min.css">
 
+  <!-- iCheck -->
+  <link rel="stylesheet" href="../../assets/plugins/iCheck/square/blue.css">
+
   <!-- Google Font -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
 
 </head>
-<body class="hold-transition skin-blue sidebar-mini">
+<body  class="hold-transition skin-blue sidebar-mini">
   <app-root>
  <!-- <div class="wrapper"></div> -->
   </app-root>
@@ -94,6 +97,9 @@
 <script src="assets/bower_components/bootstrap-colorpicker/dist/js/bootstrap-colorpicker.min.js"></script>
 <!-- bootstrap time picker -->
 <script src="assets/plugins/timepicker/bootstrap-timepicker.min.js"></script>
+
+  <!-- iCheck -->
+  <script src="assets/plugins/iCheck/icheck.min.js"></script>
 
 <script>
     $(function () {
@@ -158,7 +164,16 @@
         showInputs: false
       })
     })
+
+    $(function () {
+      $('input').iCheck({
+        checkboxClass: 'icheckbox_square-blue',
+        radioClass: 'iradio_square-blue',
+        increaseArea: '20%' /* optional */
+      });
+    });
+    
   </script>
-  
+
 </body>
 </html>
